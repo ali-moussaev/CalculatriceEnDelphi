@@ -1,0 +1,117 @@
+unit FenetrePrincial;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+    TForm2 = class(TForm)
+    Saisie1: TEdit;
+    bouton0: TButton;
+    bouton1: TButton;
+    bouton2: TButton;
+    bouton3: TButton;
+    bouton4: TButton;
+    bouton5: TButton;
+    bouton6: TButton;
+    bouton7: TButton;
+    bouton8: TButton;
+    bouton9: TButton;
+
+    bouton_additionner: TButton;
+    bouton_soustraire: TButton;
+    bouton_multiplier: TButton;
+    bouton_diviser: TButton;
+    bouton_egale: TButton;
+
+
+    procedure bouton0Click(Sender: TObject);
+    procedure bouton1Click(Sender: TObject);
+    procedure bouton2Click(Sender: TObject);
+    procedure bouton3Click(Sender: TObject);
+    procedure bouton4Click(Sender: TObject);
+    procedure bouton5Click(Sender: TObject);
+    procedure bouton6Click(Sender: TObject);
+    procedure bouton7Click(Sender: TObject);
+    procedure bouton8Click(Sender: TObject);
+    procedure bouton9Click(Sender: TObject);
+    procedure bouton_soustraireClick(Sender: TObject);
+    procedure bouton_diviserClick(Sender: TObject);
+    procedure bouton_multiplierClick(Sender: TObject);
+    procedure bouton_egaleClick(Sender: TObject);
+
+  private
+    { Déclarations privées }
+    FCurrentValue: Double;
+    FOperator: Char;
+    FLastButtonWasOperator: Boolean;
+    procedure AppendDigit(const ADigit: Char);
+    procedure SetOperator(const AOperator: Char);
+    procedure Calculate;
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.bouton0Click(Sender: TObject);
+begin
+  AppendDigit('0');
+end;
+
+procedure TForm2.bouton1Click(Sender: TObject);
+begin
+  AppendDigit('1');
+
+end;
+
+procedure TForm2.bouton2Click(Sender: TObject);
+begin
+  AppendDigit('2');
+end;
+
+procedure TForm2.bouton3Click(Sender: TObject);
+begin
+ AppendDigit('3');
+end;
+
+end.
+
+procedure TForm2.bouton5Click(Sender: TObject);
+begin
+  AppendDigit('5');
+end;
+
+procedure TForm2.bouton4Click(Sender: TObject);
+begin
+  AppendDigit('4');
+end;
+
+procedure TForm2.bouton6Click(Sender: TObject);
+begin
+  AppendDigit('6');
+end;
+
+procedure TForm2.bouton7Click(Sender: TObject);
+begin
+  AppendDigit('7');
+end;
+
+procedure TForm2.bouton8Click(Sender: TObject);
+begin
+  AppendDigit('8');
+end;
+
+procedure TForm2.bouton9Click(Sender: TObject);
+begin
+  AppendDigit('9');
+end;
+
+

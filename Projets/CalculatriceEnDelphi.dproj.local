@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/02/27 11:45:21.150,=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 11:46:11.213,C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Unit1.pas=</Transaction>
+    <Transaction>2023/02/27 11:46:16.136,=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Unit2.pas</Transaction>
+    <Transaction>2023/02/27 15:07:55.196,C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\FenetrePrincipal.pas=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Unit2.pas</Transaction>
+    <Transaction>2023/02/27 15:07:55.196,C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\FenetrePrincipal.dfm=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Unit2.dfm</Transaction>
+    <Transaction>2023/02/27 15:33:31.688,C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\CalculatriceEnDelphi.dproj=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2023/02/27 15:35:05.071,C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\CalculatriceEnDelphi.dproj=C:\Users\alied\OneDrive\Documents\Embarcadero\Studio\Projets\CalculatriceEnDelphi.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,154 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Calculatrice'
+  ClientHeight = 479
+  ClientWidth = 821
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Saisie1: TEdit
+    Left = 288
+    Top = 128
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'Saisie1'
+  end
+  object bouton1: TButton
+    Left = 303
+    Top = 168
+    Width = 43
+    Height = 41
+    Caption = '1'
+    TabOrder = 1
+    OnClick = bouton1Click
+  end
+  object bouton2: TButton
+    Left = 351
+    Top = 169
+    Width = 42
+    Height = 41
+    Caption = '2'
+    TabOrder = 2
+    OnClick = bouton2Click
+  end
+  object bouton5: TButton
+    Left = 352
+    Top = 215
+    Width = 41
+    Height = 42
+    Caption = '5'
+    TabOrder = 3
+    OnClick = bouton5Click
+  end
+  object bouton4: TButton
+    Left = 303
+    Top = 215
+    Width = 42
+    Height = 43
+    Caption = '4'
+    TabOrder = 4
+    OnClick = bouton4Click
+  end
+  object bouton7: TButton
+    Left = 303
+    Top = 264
+    Width = 43
+    Height = 41
+    Caption = '7'
+    TabOrder = 5
+    OnClick = bouton7Click
+  end
+  object bouton8: TButton
+    Left = 352
+    Top = 264
+    Width = 41
+    Height = 41
+    Caption = '8'
+    TabOrder = 6
+    OnClick = bouton8Click
+  end
+  object bouton9: TButton
+    Left = 255
+    Top = 311
+    Width = 42
+    Height = 34
+    Caption = '9'
+    TabOrder = 7
+    OnClick = bouton9Click
+  end
+  object bouton6: TButton
+    Left = 255
+    Top = 264
+    Width = 42
+    Height = 41
+    Caption = '6'
+    TabOrder = 8
+    OnClick = bouton6Click
+  end
+  object bouton3: TButton
+    Left = 255
+    Top = 215
+    Width = 42
+    Height = 43
+    Caption = '3'
+    TabOrder = 9
+    OnClick = bouton3Click
+  end
+  object bouton_additionner: TButton
+    Left = 399
+    Top = 168
+    Width = 41
+    Height = 41
+    Caption = '+'
+    TabOrder = 10
+  end
+  object bouton_soustraire: TButton
+    Left = 399
+    Top = 215
+    Width = 41
+    Height = 43
+    Caption = '-'
+    TabOrder = 11
+  end
+  object bouton_multiplier: TButton
+    Left = 399
+    Top = 264
+    Width = 41
+    Height = 41
+    Caption = '*'
+    TabOrder = 12
+  end
+  object bouton_diviser: TButton
+    Left = 399
+    Top = 311
+    Width = 41
+    Height = 34
+    Caption = '/'
+    TabOrder = 13
+  end
+  object bouton_egale: TButton
+    Left = 303
+    Top = 311
+    Width = 90
+    Height = 34
+    Caption = '='
+    TabOrder = 14
+  end
+  object bouton0: TButton
+    Left = 255
+    Top = 168
+    Width = 42
+    Height = 41
+    Caption = '0'
+    TabOrder = 15
+    OnClick = bouton0Click
+  end
+end

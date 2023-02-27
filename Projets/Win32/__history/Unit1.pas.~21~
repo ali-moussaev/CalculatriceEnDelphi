@@ -1,0 +1,50 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ToolWin, Vcl.ComCtrls, Vcl.Menus,
+  Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.JumpList, System.Win.TaskbarCore, Vcl.Taskbar,
+  Vcl.TitleBarCtrls;
+
+type
+  TForm1 = class(TForm)
+    saisie1: TEdit;
+    saisie2: TEdit;
+    Bouton_Ajouter: TButton;
+    Bouton_Multiplier: TButton;
+    Bouton_Soustraire: TButton;
+    Bouton_Diviser: TButton;
+    lblResult: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+var numero1, numero2, resultat : integer ;
+begin
+
+numero1 := StrToInt(saisie1.Text) ;
+numero2 := StrToInt(saisie2.Text) ;
+resultat := numero1 + numero2 ;
+
+
+lblResult.Caption := IntToStr(resultat) ;
+
+
+end;
+
+end.
+
